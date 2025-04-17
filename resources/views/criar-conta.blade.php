@@ -1,6 +1,5 @@
-@vite(['resources/css/app.css',
-    'resources/js/app.js'])
-    <section class="bg-white min-h-screen dark:bg-gray-900">
+@vite(['resources/css/app.css','resources/js/app.js'])
+<section class="bg-white min-h-screen dark:bg-gray-900">
   <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
       <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Crie sua conta</h2>
       <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Crie sua conta no melhor sistema ja desenvolvido pelos alunos do curso de GTI. Acesse o counteudo e faça parte dessa historia.</p>

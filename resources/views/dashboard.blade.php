@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PetGallery - Adorable Dogs & Cats</title>
+    <title>PetGallery - Cãos e Gatos & Adoráveis</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
@@ -32,7 +32,7 @@
             </a>
             <div class="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                 <button type="button" class="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button">
-                    <span class="sr-only">Open user menu</span>
+                    <span class="sr-only">Abrir menu de usuário</span>
                     <img class="w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/men/32.jpg" alt="user photo">
                 </button>
                 <!-- Dropdown menu -->
@@ -69,13 +69,13 @@
                         <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
                     </li>
                     <li>
-                        <a href="#dogs" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Dogs</a>
+                        <a href="#dogs" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Cachorros</a>
                     </li>
                     <li>
-                        <a href="#cats" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Cats</a>
+                        <a href="#cats" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Gatos</a>
                     </li>
                     <li>
-                        <a href="#about" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                        <a href="#about" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Sobre nós</a>
                     </li>
                 </ul>
             </div>
@@ -85,11 +85,11 @@
     <!-- Hero Section -->
     <section class="hero text-white pt-32 pb-20">
         <div class="container mx-auto text-center px-4">
-            <h1 class="text-4xl md:text-5xl font-bold mb-4">Discover Adorable Pets</h1>
-            <p class="text-xl md:text-2xl mb-8">Browse our collection of cute dogs and cats</p>
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Descubra Pets</h1>
+            <p class="text-xl md:text-2xl mb-8">Veja nossa coleção de gatos e cachorros</p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="#dogs" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg">View Dogs</a>
-                <a href="#cats" class="bg-white hover:bg-gray-100 text-blue-600 font-bold py-3 px-6 rounded-lg border border-white">View Cats</a>
+                <a href="#dogs" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg">Ver cachorros</a>
+                <a href="#cats" class="bg-white hover:bg-gray-100 text-blue-600 font-bold py-3 px-6 rounded-lg border border-white">Ver gatos</a>
             </div>
         </div>
     </section>
@@ -99,8 +99,8 @@
         <!-- Dogs Section -->
         <section id="dogs" class="mb-16">
             <div class="flex justify-between items-center mb-6">
-                <h2 class="text-3xl font-bold text-gray-800 dark:text-white">Dogs</h2>
-                <a href="#" class="text-blue-600 hover:underline">View all dogs</a>
+                <h2 class="text-3xl font-bold text-gray-800 dark:text-white">Cachorros</h2>
+                <a href="#" class="text-blue-600 hover:underline">Ver todos os cachorros</a>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 <!-- Dog Card 1 -->
@@ -108,9 +108,9 @@
                     <img class="w-full h-48 object-cover" src="https://images.unsplash.com/photo-1561037404-61cd46aa615b" alt="Golden Retriever">
                     <div class="p-4">
                         <h3 class="font-bold text-xl mb-2">Golden Retriever</h3>
-                        <p class="text-gray-700">Friendly, intelligent and devoted.</p>
+                        <p class="text-gray-700">Amigável e inteligente</p>
                         <div class="mt-4 flex justify-between items-center">
-                            <span class="text-sm text-gray-600">Age: 2 years</span>
+                            <span class="text-sm text-gray-600">Idade: 2 anos</span>
                             <button class="text-blue-600 hover:text-blue-800">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -124,10 +124,10 @@
                 <div class="pet-card bg-white rounded-lg shadow-md overflow-hidden">
                     <img class="w-full h-48 object-cover" src="https://images.unsplash.com/photo-1586671267731-da2cf3ceeb80" alt="French Bulldog">
                     <div class="p-4">
-                        <h3 class="font-bold text-xl mb-2">French Bulldog</h3>
-                        <p class="text-gray-700">Playful, smart and adaptable.</p>
+                        <h3 class="font-bold text-xl mb-2">Bulldog Francês</h3>
+                        <p class="text-gray-700">Brincalhão e inteligente.</p>
                         <div class="mt-4 flex justify-between items-center">
-                            <span class="text-sm text-gray-600">Age: 1.5 years</span>
+                            <span class="text-sm text-gray-600">Idade: 1.5 anos</span>
                             <button class="text-blue-600 hover:text-blue-800">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -141,10 +141,10 @@
                 <div class="pet-card bg-white rounded-lg shadow-md overflow-hidden">
                     <img class="w-full h-48 object-cover" src="https://images.unsplash.com/photo-1530281700549-e82e7bf110d6" alt="Siberian Husky">
                     <div class="p-4">
-                        <h3 class="font-bold text-xl mb-2">Siberian Husky</h3>
-                        <p class="text-gray-700">Loyal, outgoing and mischievous.</p>
+                        <h3 class="font-bold text-xl mb-2">Husky Siberiano</h3>
+                        <p class="text-gray-700">Leal e calmo.</p>
                         <div class="mt-4 flex justify-between items-center">
-                            <span class="text-sm text-gray-600">Age: 3 years</span>
+                            <span class="text-sm text-gray-600">Idade: 3 anos</span>
                             <button class="text-blue-600 hover:text-blue-800">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -159,9 +159,9 @@
                     <img class="w-full h-48 object-cover" src="https://images.unsplash.com/photo-1517849845537-4d257902454a" alt="Beagle">
                     <div class="p-4">
                         <h3 class="font-bold text-xl mb-2">Beagle</h3>
-                        <p class="text-gray-700">Gentle, cheerful and curious.</p>
+                        <p class="text-gray-700">Gentil e curioso.</p>
                         <div class="mt-4 flex justify-between items-center">
-                            <span class="text-sm text-gray-600">Age: 2.5 years</span>
+                            <span class="text-sm text-gray-600">Idade: 2.5 anos</span>
                             <button class="text-blue-600 hover:text-blue-800">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -176,8 +176,8 @@
         <!-- Cats Section -->
         <section id="cats" class="mb-16">
             <div class="flex justify-between items-center mb-6">
-                <h2 class="text-3xl font-bold text-gray-800 dark:text-white">Cats</h2>
-                <a href="#" class="text-blue-600 hover:underline">View all cats</a>
+                <h2 class="text-3xl font-bold text-gray-800 dark:text-white">Gatos</h2>
+                <a href="#" class="text-blue-600 hover:underline">Ver todos os gatos</a>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 <!-- Cat Card 1 -->
@@ -185,9 +185,9 @@
                     <img class="w-full h-48 object-cover" src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba" alt="British Shorthair">
                     <div class="p-4">
                         <h3 class="font-bold text-xl mb-2">British Shorthair</h3>
-                        <p class="text-gray-700">Calm, affectionate and dignified.</p>
+                        <p class="text-gray-700">Calmo e afeiçoado.</p>
                         <div class="mt-4 flex justify-between items-center">
-                            <span class="text-sm text-gray-600">Age: 1 year</span>
+                            <span class="text-sm text-gray-600">Idade: 1 ano</span>
                             <button class="text-blue-600 hover:text-blue-800">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -202,9 +202,9 @@
                     <img class="w-full h-48 object-cover" src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce" alt="Siamese Cat">
                     <div class="p-4">
                         <h3 class="font-bold text-xl mb-2">Siamese Cat</h3>
-                        <p class="text-gray-700">Vocal, social and intelligent.</p>
+                        <p class="text-gray-700">Social e inteligente.</p>
                         <div class="mt-4 flex justify-between items-center">
-                            <span class="text-sm text-gray-600">Age: 8 months</span>
+                            <span class="text-sm text-gray-600">Idade: 8 meses</span>
                             <button class="text-blue-600 hover:text-blue-800">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -219,9 +219,9 @@
                     <img class="w-full h-48 object-cover" src="https://images.unsplash.com/photo-1573865526739-10659fec78a5" alt="Maine Coon">
                     <div class="p-4">
                         <h3 class="font-bold text-xl mb-2">Maine Coon</h3>
-                        <p class="text-gray-700">Gentle, friendly and sociable.</p>
+                        <p class="text-gray-700">Amigável e brincalhão.</p>
                         <div class="mt-4 flex justify-between items-center">
-                            <span class="text-sm text-gray-600">Age: 2 years</span>
+                            <span class="text-sm text-gray-600">Idade: 2 anos</span>
                             <button class="text-blue-600 hover:text-blue-800">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -236,9 +236,9 @@
                     <img class="w-full h-48 object-cover" src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6" alt="Persian Cat">
                     <div class="p-4">
                         <h3 class="font-bold text-xl mb-2">Persian Cat</h3>
-                        <p class="text-gray-700">Quiet, sweet and gentle.</p>
+                        <p class="text-gray-700">Quieto e calmo.</p>
                         <div class="mt-4 flex justify-between items-center">
-                            <span class="text-sm text-gray-600">Age: 3 years</span>
+                            <span class="text-sm text-gray-600">Idade: 3 anos</span>
                             <button class="text-blue-600 hover:text-blue-800">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />

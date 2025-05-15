@@ -1,3 +1,8 @@
+@vite(['resources/css/app.css',
+'resources/js/app.js1'])
+
+<x-topo></x-topo>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

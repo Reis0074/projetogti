@@ -1,6 +1,7 @@
 <?php
 
 use App\Models\User;
+use App\Models\Equipe;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -62,3 +63,17 @@ Route::post('/logar', function (Request $request) {
     Route::get('/cadastra-equipe', function () {
         return view('cadastra-equipe');
     })->name('cadastra-equipe');
+
+    Route::post('/salva-equipe', function (Request $request) {
+        //dd($request);
+        $equipe = new Equipe();
+        $equipe->nome = $request->name;
+        $equipe->email = $request->email;
+        $equipe->formacao = $request->formacao;
+        $equipe->experiencia = $request->experiencia;
+        $equipe->save();
+    
+        return redirect(route('cadastra-equipe'));
+    
+        
+    })->name('salva-equipe');

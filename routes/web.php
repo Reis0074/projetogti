@@ -47,14 +47,18 @@ Route::post('/logar', function (Request $request) {
         'email' => ['required', 'email'],
         'password' => ['required'],
     ]);
-
+    
     if (Auth::attempt($credentials)) {
         $request->session()->regenerate();
-
+        
         return redirect()->intended('dashboard');
     }
-
+    
     return back()->withErrors([
         'email' => 'O email e senha digitados não são válidos',
-    ])->onlyInput('email');
-})->name('logar');
+        ])->onlyInput('email');
+    })->name('logar');
+
+    Route::get('/cadastra-equipe', function () {
+        return view('cadastra-equipe');
+    })->name('cadastra-equipe');

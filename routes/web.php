@@ -62,7 +62,7 @@ Route::post('/logar', function (Request $request) {
 
     Route::get('/cadastra-equipe', function () {
         return view('cadastra-equipe');
-    })->name('cadastra-equipe');
+    })->name('cadastra-equipe')->middleware('auth');
 
     Route::post('/salva-equipe', function (Request $request) {
         //dd($request);
@@ -77,3 +77,9 @@ Route::post('/logar', function (Request $request) {
     
         
     })->name('salva-equipe');
+
+    Route::get('/logout', function (Request $request) {
+        $request->session()->regenerate();
+       Auth::logout();
+        return redirect()->route('inicio');
+    })->name('logout');

@@ -77,9 +77,15 @@ Route::post('/logar', function (Request $request) {
     
         
     })->name('salva-equipe');
-
+    
     Route::get('/logout', function (Request $request) {
         $request->session()->regenerate();
-       Auth::logout();
+        Auth::logout();
         return redirect()->route('inicio');
     })->name('logout');
+
+    Route::get('/lista-equipe', function () {
+        $equipe=Equipe::all();
+        //dd($equipe);
+        return view('lista-equipe', compact('equipe'));
+    })->name('lista-equipe');

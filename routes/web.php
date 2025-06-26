@@ -1,6 +1,7 @@
 <?php
 
 use App\Models\User;
+use App\Models\Aula;
 use App\Models\Equipe;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -89,3 +90,43 @@ Route::post('/logar', function (Request $request) {
         //dd($equipe);
         return view('lista-equipe', compact('equipe'));
     })->name('lista-equipe');
+
+    Route::get('/cadastra-aula', function () {
+        return view('cadastra-aula');
+    })->name('cadastra-aula')->middleware('auth');
+
+    Route::post('/salva-aula', function (Request $request) {
+        //dd($request);
+        $aula = new Aula();
+        $aula->nome = $request->name;
+        $aula->email = $request->email;
+        $aula->semestre = $request->semestre;
+        $aula->curso = $request->curso;
+        $aula->save();
+    
+        return redirect(route('cadastra-aula'));
+    
+        
+    })->name('salva-aula');
+    
+    Route::get('/aula', function () {
+        $aula=Aula::all();
+        //dd($aula);
+        return view('aula', compact('aula'));
+    })->name('aula');
+
+    Route::get('/cadastra-aula', function () {
+        return view('cadastra-aula');
+    })->name('cadastra-aula')->middleware('auth');
+
+    Route::get('/sobre', function () {
+        return view('sobre');
+    })->name('sobre');
+    
+    Route::get('/recursos', function () {
+        return view('recursos');
+    })->name('recursos');
+    
+    Route::get('/fale-conosco', function () {
+        return view('fale-conosco');
+    })->name('fale-conosco');
